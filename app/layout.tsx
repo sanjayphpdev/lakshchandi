@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-const siteUrl = `${process.env.PUBLIC_URL}`;
+const siteUrl = `${process.env.BASE_URL}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
