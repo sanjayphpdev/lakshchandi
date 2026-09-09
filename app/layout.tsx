@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "LakshChandi Technology | Software Development Company",
-    template: "%s | LakshChandi Technology",
+    default: "Lakshchandi Technology | Software Development Company",
+    template: "%s | Lakshchandi Technology",
   },
 
   description:
-    "LakshChandi Technology provides custom software development, web development, backend APIs, mobile applications, cloud solutions and FinTech technology services.",
+    "Lakshchandi Technology provides custom software development, web development, backend APIs, mobile applications, cloud solutions and FinTech technology services.",
 
   keywords: [
     "software development company",
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
 
   authors: [
     {
-      name: "LakshChandi Technology",
+      name: "Lakshchandi Technology",
     },
   ],
 
-  creator: "LakshChandi Technology",
+  creator: "Lakshchandi Technology",
 
   alternates: {
     canonical: "/",
@@ -46,23 +46,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: siteUrl,
-    title: "LakshChandi Technology | Software Development Company",
+    title: "Lakshchandi Technology | Software Development Company",
     description:
       "Custom software development, backend engineering, web applications, mobile apps and cloud solutions.",
-    siteName: "LakshChandi Technology",
+    siteName: "Lakshchandi Technology",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "LakshChandi Technology - Software Development",
+        alt: "Lakshchandi Technology - Software Development",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "LakshChandi Technology | Software Development Company",
+    title: "Lakshchandi Technology | Software Development Company",
     description:
       "Custom software development, backend engineering, web applications and cloud solutions.",
     images: ["/og-image.jpg"],

@@ -50,7 +50,7 @@ export default function ServicesPage() {
       <header className="header">
         <div className="container header-inner">
           <Link href="/" className="logo">
-            LakshChandi<span>Technology</span>
+            Lakshchandi<span>Technology</span>
           </Link>
 
           <nav className="navigation">
