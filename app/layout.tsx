@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-const siteUrl = "https://www.yourcompany.com";
+const siteUrl = `${process.env.PUBLIC_URL}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -88,6 +88,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-IN">
+      <head><meta name="apple-mobile-web-app-title" content="Lakshchandi-Technology" /></head>
       <body>{children} <GoogleAnalytics/></body>
     </html>
   );
