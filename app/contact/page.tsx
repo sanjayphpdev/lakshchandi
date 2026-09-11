@@ -27,8 +27,8 @@ export default function ContactPage() {
           <div className="contact-box">
             <p>Email us at</p>
 
-            <a href="mailto:sanjay.rollback@gmail.com">
-              sanjay.rollback@gmail.com
+            <a href="mailto:contact@lakshchandi-technology.com">
+              contact@lakshchandi-technology.com
             </a>
           </div>
 
