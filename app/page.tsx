@@ -1,4 +1,3 @@
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Link from "next/link";
@@ -48,7 +47,7 @@ const technologies = [
   "Backend",
   "Hybrid Apps",
   "Scalability",
-  "Distributed System"
+  "Distributed System",
 ];
 
 export default function Home() {
@@ -290,7 +289,7 @@ export default function Home() {
 
       {/* FOOTER */}
 
-      <Footer/>
+      <Footer />
     </main>
   );
 }

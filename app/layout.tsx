@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { JsonLd } from "@/components/JsonLd";
 
 const siteUrl = `${process.env.BASE_URL}`;
 
@@ -95,6 +96,14 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Lakshachandi Technology",
+            url: "https://www.lakshchandi-technology.com/",
+          }}
+        />
         {children} <GoogleAnalytics />
       </body>
     </html>
