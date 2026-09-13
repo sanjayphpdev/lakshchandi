@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Lakshchandi Technology | Software Development Company",
-    template: "%s | Lakshchandi Technology",
+    default: "Lakshachandi Technology | Software Development Company",
+    template: "%s | Lakshachandi Technology",
   },
 
   description:
-    "Lakshchandi Technology provides custom software development, web development, backend APIs, mobile applications, cloud solutions and FinTech technology services.",
+    "Lakshachandi Technology provides custom software development, web development, backend APIs, mobile applications, cloud solutions and FinTech technology services.",
 
   keywords: [
     "software development company",
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
 
   authors: [
     {
-      name: "Lakshchandi Technology",
+      name: "Lakshachandi Technology",
     },
   ],
 
-  creator: "Lakshchandi Technology",
+  creator: "Lakshachandi Technology",
 
   alternates: {
     canonical: "/",
@@ -46,23 +46,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: siteUrl,
-    title: "Lakshchandi Technology | Software Development Company",
+    title: "Lakshachandi Technology | Software Development Company",
     description:
       "Custom software development, backend engineering, web applications, mobile apps and cloud solutions.",
-    siteName: "Lakshchandi Technology",
+    siteName: "Lakshachandi Technology",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Lakshchandi Technology - Software Development",
+        alt: "Lakshachandi Technology - Software Development",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Lakshchandi Technology | Software Development Company",
+    title: "Lakshachandi Technology | Software Development Company",
     description:
       "Custom software development, backend engineering, web applications and cloud solutions.",
     images: ["/og-image.jpg"],
@@ -88,8 +88,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-IN">
-      <head><meta name="apple-mobile-web-app-title" content="Lakshchandi-Technology" /></head>
-      <body>{children} <GoogleAnalytics/></body>
+      <head>
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Lakshachandi-Technology"
+        />
+      </head>
+      <body>
+        {children} <GoogleAnalytics />
+      </body>
     </html>
   );
 }

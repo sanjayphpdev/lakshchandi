@@ -17,7 +17,7 @@ export default function AboutPage() {
       <header className="header">
         <div className="container header-inner">
           <Link href="/" className="logo">
-            Lakshchandi<span>Technology</span>
+            Lakshachandi<span>Technology</span>
           </Link>
 
           <nav className="navigation">
@@ -52,19 +52,19 @@ export default function AboutPage() {
           <h2>13+ years of engineering experience.</h2>
 
           <p>
-            Our engineering experience covers enterprise applications,
-            FinTech, payments, healthcare, media, e-commerce and SaaS.
+            Our engineering experience covers enterprise applications, FinTech,
+            payments, healthcare, media, e-commerce and SaaS.
           </p>
 
           <p>
-            We specialize in backend engineering, APIs, microservices,
-            scalable architectures and cloud infrastructure, while also
-            providing complete web and mobile development.
+            We specialize in backend engineering, APIs, microservices, scalable
+            architectures and cloud infrastructure, while also providing
+            complete web and mobile development.
           </p>
 
           <p>
-            The goal is simple: build software that works reliably today and
-            can evolve with the business tomorrow.
+            The goal is simple: build software that works reliably today and can
+            evolve with the business tomorrow.
           </p>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function AboutPage() {
           </Link>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </main>
   );
 }

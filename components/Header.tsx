@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="container header-inner">
         <Link href="/" className="logo">
-          Lakshchandi<span>Technology</span>
+          Lakshachandi<span>Technology</span>
         </Link>
 
         <nav className="navigation">

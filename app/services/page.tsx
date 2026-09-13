@@ -50,7 +50,7 @@ export default function ServicesPage() {
       <header className="header">
         <div className="container header-inner">
           <Link href="/" className="logo">
-            Lakshchandi<span>Technology</span>
+            Lakshachandi<span>Technology</span>
           </Link>
 
           <nav className="navigation">
@@ -74,8 +74,8 @@ export default function ServicesPage() {
           </h1>
 
           <p>
-            We design and build reliable digital products, platforms and
-            backend systems.
+            We design and build reliable digital products, platforms and backend
+            systems.
           </p>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function ServicesPage() {
           </Link>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </main>
   );
 }
